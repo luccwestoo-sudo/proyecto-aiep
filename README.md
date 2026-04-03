@@ -63,22 +63,6 @@ java Vehiculo
 
 ---
 
-## Estructura del repositorio
-
-
-Proyecto-Java-AIEP/
-│
-├── Vehiculo.java
-├── README.md
-├── evidencias/
-│ ├── compilacion.png
-│ ├── ejecucion.png
-│ └── codigo.png
-├── historias_usuario.md
-└── cronograma.md
-
-
----
 
 ## Proceso realizado
 
