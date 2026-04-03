@@ -1,57 +1,99 @@
-# Proyecto Java - AIEP
+# Proyecto Java AIEP
 
 ## Descripción
-Este proyecto consiste en el desarrollo de un programa en Java que permite ingresar datos de un vehículo desde teclado y mostrarlos en pantalla.
 
-El programa fue desarrollado sin utilizar un IDE, utilizando únicamente la línea de comandos (CMD) y el compilador javac.
+Este proyecto consiste en el desarrollo de un programa en lenguaje Java que permite ingresar datos de un vehículo mediante la consola, utilizando la clase Scanner para capturar información desde el teclado.
 
----
+El programa solicita datos como marca, modelo, cilindrada, tipo de combustible y capacidad de pasajeros, para luego mostrar estos datos en pantalla.
 
-## Requerimientos funcionales
+El desarrollo fue realizado sin utilizar un entorno de desarrollo (IDE), trabajando únicamente con la línea de comandos (CMD) y el compilador javac, lo que permite comprender de mejor forma el proceso de compilación y ejecución en Java.
 
-- Calcular costo de despacho según monto de compra
-- Aplicar despacho gratis sobre $50.000
-- Calcular costo por kilómetro
-- Permitir registro de usuarios
-
----
-
-## Requerimientos no funcionales
-
-- Sistema fácil de usar
-- Ejecución rápida
-- Compatible con distintos dispositivos
-- Seguridad en los datos del usuario
-
----
-
-## Historias de usuario
-
-- Como usuario quiero calcular el costo de despacho para saber cuánto debo pagar
-- Como usuario quiero saber si tengo envío gratis
-- Como usuario quiero registrarme en el sistema
-
----
-
-## Compilación y ejecución
-
-Compilar:
-javac Vehiculo.java
-
-Ejecutar:
-java Vehiculo
+Además, el proyecto se complementa con el análisis de un caso de estudio relacionado con una empresa de distribución, donde se definen requerimientos y necesidades del sistema.
 
 ---
 
 ## Tecnologías utilizadas
 
-- Java
-- JDK
-- Línea de comandos
-- GitHub
+- Lenguaje Java  
+- JDK (Java Development Kit)  
+- Consola CMD (símbolo del sistema)  
+- GitHub  
+
+---
+
+## Ejecución del programa
+
+### Compilación
+
+javac Vehiculo.java
+
+
+### Ejecución
+
+java Vehiculo
+
+
+---
+
+## Requerimientos funcionales (Caso de estudio)
+
+- El sistema debe calcular el costo de despacho según el monto de compra  
+- El sistema debe aplicar despacho gratuito para compras superiores a $50.000  
+- El sistema debe calcular el costo por kilómetro recorrido  
+- El sistema debe permitir el registro de usuarios mediante cuentas  
+- El sistema debe mostrar el costo final del despacho al usuario  
+
+---
+
+## Requerimientos no funcionales
+
+- El sistema debe ser fácil de usar para cualquier usuario  
+- El sistema debe responder de forma rápida  
+- El sistema debe ejecutarse correctamente en distintos dispositivos  
+- El sistema debe mantener la información del usuario segura  
+- El código debe ser claro, ordenado y comentado  
+
+---
+
+## Historias de usuario
+
+- Como cliente, quiero calcular el costo de despacho para saber cuánto debo pagar  
+- Como cliente, quiero saber si tengo envío gratuito según el monto de compra  
+- Como usuario, quiero registrarme en el sistema para acceder a sus funcionalidades  
+
+---
+
+## Estructura del repositorio
+
+
+Proyecto-Java-AIEP/
+│
+├── Vehiculo.java
+├── README.md
+├── evidencias/
+│ ├── compilacion.png
+│ ├── ejecucion.png
+│ └── codigo.png
+├── historias_usuario.md
+└── cronograma.md
+
+
+---
+
+## Proceso realizado
+
+1. Instalación del JDK  
+2. Creación del código fuente en Java  
+3. Compilación mediante el comando javac  
+4. Ejecución del programa con java  
+5. Pruebas de funcionamiento  
+6. Documentación del proceso  
+7. Creación del repositorio en GitHub  
 
 ---
 
 ## Autor
-Luciano Quezada
-Estudiante de programación y análisis de sistemas
+
+Luciano Quezada  
+Estudiante de Programación y Análisis de Sistemas  
+AIEP
