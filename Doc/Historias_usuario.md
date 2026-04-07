@@ -1,36 +1,35 @@
 # Historias de Usuario
 
+Para entender mejor las necesidades del usuario, se definieron las siguientes historias:
+
 ## Historia 1
-Como usuario, quiero ingresar los datos de un vehículo para poder registrarlos en el sistema.
+**Como cliente**, quiero ingresar el monto de mi compra para saber si tengo derecho a despacho gratuito.
 
-### Criterios de aceptación:
-- El sistema solicita los datos correctamente
-- El usuario puede ingresar texto y números sin errores
-- La información queda almacenada
-
----
+**Criterios de aceptación:**
+- El sistema permite ingresar el monto de la compra.
+- El sistema evalúa correctamente si aplica despacho gratis.
+- El resultado se muestra de forma clara al usuario.
 
 ## Historia 2
-Como usuario, quiero visualizar los datos ingresados para verificar que sean correctos.
+**Como cliente**, quiero conocer el costo del despacho según la distancia para saber cuánto debo pagar.
 
-### Criterios de aceptación:
-- El sistema muestra todos los datos ingresados
-- La información se presenta de forma clara en pantalla
-
----
+**Criterios de aceptación:**
+- El sistema solicita la distancia en kilómetros.
+- El sistema calcula el costo según las reglas establecidas.
+- El resultado final se muestra correctamente en pantalla.
 
 ## Historia 3
-Como usuario, quiero que el sistema sea fácil de usar para no tener dificultades al ingresar información.
+**Como cliente**, quiero ver el costo total del despacho para tomar una decisión antes de comprar.
 
-### Criterios de aceptación:
-- El sistema entrega instrucciones claras
-- El programa no presenta errores durante la ejecución
+**Criterios de aceptación:**
+- El sistema muestra el costo total del despacho.
+- El valor es correcto según el monto y distancia.
+- La información es fácil de entender.
 
----
+## Historia 4
+**Como usuario**, quiero registrarme en el sistema para poder acceder a sus funcionalidades.
 
-## Historia 4 (relacionada al caso de estudio)
-Como cliente, quiero conocer el costo del despacho para saber cuánto debo pagar por el envío.
-
-### Criterios de aceptación:
-- El sistema calcula correctamente el costo según las reglas
-- El usuario puede visualizar el resultado final
+**Criterios de aceptación:**
+- El sistema permite ingresar datos de registro.
+- La información se almacena correctamente.
+- El proceso es simple y no genera errores.
