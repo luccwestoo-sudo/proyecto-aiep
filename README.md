@@ -76,9 +76,3 @@ Las historias de usuario y el cronograma del proyecto se encuentran disponibles 
 Luciano Quezada  
 Estudiante de Programación y Análisis de Sistemas  
 AIEP
-
-## Autor
-
-Luciano Quezada  
-Estudiante de Programación y Análisis de Sistemas  
-AIEP
